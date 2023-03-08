@@ -1,0 +1,47 @@
+header{
+    nav{
+        div{
+            background-color: #020304;
+            padding: auto;
+            .navbar-brand{
+                #headerLogo1{
+                    color: #7f0000;
+                }
+                #headerLogo2{
+                    color: #f3f3f3;
+                }
+            }
+            .navbar-toggler{
+                .navbar-toggler-icon {
+                    background-image: url(../Imagenes/menuhamburg.png);
+                }
+            }
+            #navbarNavAltMarkup{
+                display: flex;
+                justify-content:center;
+                .navbar-nav{
+                    a{
+                        background-color: #020304;
+                        padding: auto;
+                        &:hover{
+                            color: #7f0000;
+                        }
+                    }
+                    .nav-link{
+                        color: #f3f3f3;
+                        margin-left: 10px;
+                        margin-right: 10px;
+                    }
+                }
+            }
+            #headerContacto{
+                display: flex;
+                justify-content: end;
+                color: #f3f3f3;
+                &:hover{
+                    color: #7f0000;
+                }
+            }
+        }
+    }
+}
