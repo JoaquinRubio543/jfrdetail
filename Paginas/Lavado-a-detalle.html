@@ -34,32 +34,25 @@
         </nav>
     </header>
     <main>
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active" data-bs-interval="3000">
-                                <img src="../Imagenes/128lavado.jpg" class="d-block w-100 h-100 carousel-img" alt="...">
-                            </div>
-                            <div class="carousel-item" data-bs-interval="3000" >
-                                <img src="../Imagenes/lavado207.jpg" class="d-block  w-100 h-100 carousel-img" alt="...">
-                            </div>
-                            <div class="carousel-item" data-bs-interval="3000">
-                                <img src="../Imagenes/lavadoruedas.jpg" class="d-block  w-100 h-100 carousel-img" alt="...">
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
+        <div class="container" id="containerLavado">
+            <div class="row" id="rowLavado">
+                <div class="col-12 col-md-8 col-xl-8">
+                    <img class="img-lavado" src="../Imagenes/128lavado.jpg" alt="">
+                    <img class="img-lavado" src="../Imagenes/lavado207.jpg" alt="">
                 </div>
-            </div>
+                <div class="col-12 col-md-4 col-xl-4">
+                    <p class="info-lavado">Lavar el coche es el proceso mas importante y que más veces llevamos a cabo durante la vida útil de un vehículo, por lo que es imprescindible una tecnica optima y eficiente para lograr un resultado final perfecto sin marcas ni swirls.</p>
+                    <p class="info-lavado">El precio del lavado varia segun el auto/camioneta y el trabajo requerido para cada caso. Un auto  puede vale entre $3000 a 6000$ pesos, depende del tipo de lavado y que tan al detalle sea necesario limpiar. Una camioneta varia entre los $5000 a $8000 pesos, teninedo en cuenta las misma variaciones de los automobiles.</p>
+                    <a href="../Paginas/Contactanos.html" class="a-lavado">
+                        <button class="btn-lavado">Reservar</button>
+                    </a>
+                </div>
+            </div>    
+            <div class="row justify-content-start" >
+                <div class="col-12 col-md-4 col-xl-4">
+                    <img class="img-lavado2"src="../Imagenes/lavadoruedas.jpg" alt="" id="lavadoRuedas3">
+                </div>
+            </div>    
         </div>
     </main>
     <footer class="footer">
