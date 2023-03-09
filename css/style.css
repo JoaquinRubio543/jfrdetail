@@ -1,4 +1,4 @@
-/*Reset*/
+/*Reset
 *{
     padding: 0;
     margin: 0;
@@ -39,8 +39,8 @@ Header
 .navbar-toggler-icon {
     background-image: url(../Imagenes/menuhamburg.png);
 }
-
-/*Header*/
+*/
+/*Header
  Footer 
 .footer{
     position: fixed;
@@ -57,9 +57,9 @@ Header
     justify-content: center;
     color: rgb(48, 45, 45);
 }
-/*Footer */
+Footer */
 
-a{
+/*a{
     text-decoration: none;
 }
 body{
@@ -68,7 +68,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 } 
-
+*/
 /*Contactanos*/
 #mapContacto{
     display: flex;
@@ -204,10 +204,10 @@ textarea{
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 }
-/*---------------------------------------Index bootstrap/Main css----------------------------------------*/
+/*
 .img-index{
-    max-width: 100%;
-    max-height: 100%;
+   max-width: 100%;
+   max-height: 100%;
 }
 #lavadoIndex{
     height: 72%;
@@ -230,11 +230,6 @@ textarea{
     cursor: pointer;
     transform: all 400ms ease;
 }
-
-.a-index:hover{
-    translate: TranslateY(-3%);
-}
-/*Animaciones---------------------------------------------------------------*/
 .animate__animated.animate__backInLeft {
     --animate-duration: 1.5s;
   }
@@ -244,15 +239,15 @@ textarea{
 .animate__animated.animate__backInUp {
     --animate-duration: 1.5s;
 }
-
+*/
 .carousel-inner{
     max-height: 30rem;
+    background-position: center !important;
 }
-.carousel-item{
-    position: relative;
-    background-size: cover;
-    background-position: center;
-    width: 600px;
-    height: 300px;
+.carousel-img{
+    max-width: 100%;
+    max-height: 100%;
+    background-position: center !important;
+}
 
-}
+  

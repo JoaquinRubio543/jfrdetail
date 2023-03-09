@@ -1,0 +1,52 @@
+div{
+    div{
+        div{
+            .container__contacto{
+                margin-bottom: 10%;
+                margin-top: 25px;
+                form{
+                    #hcontactanos{
+                        color: white;
+                        margin: 0;
+                        font-size: 30px;  
+                    }
+                    input, textarea{
+                        width: 100%;
+                        margin-bottom: 2%;
+                        box-sizing: border-box;
+                        font-size: 16px;
+                    }
+                    textarea{
+                        min-height: 50%;
+                        max-height: 200px;
+                        max-width: 100%;
+                        min-width: 50%;
+                    }
+                    #botoncontacto{
+                        padding: 5px;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+        div{
+            .container__form{
+                color: white;
+                padding-top: 10%;
+                #mapContacto{
+                    display: flex;
+                    justify-content: flex-start;
+                    overflow: hidden;
+                    max-width: fit-content;
+                }
+                .container__datos{
+                    width: 100%;
+                    display: flex;
+                    justify-content: flex-start;
+                    text-align: start;
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+}

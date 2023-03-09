@@ -6,9 +6,11 @@ header{
             .navbar-brand{
                 #headerLogo1{
                     color: #7f0000;
+                    font-size: 25px;
                 }
                 #headerLogo2{
                     color: #f3f3f3;
+                    font-size: 25px;
                 }
             }
             .navbar-toggler{
@@ -16,9 +18,7 @@ header{
                     background-image: url(../Imagenes/menuhamburg.png);
                 }
             }
-            #navbarNavAltMarkup{
-                display: flex;
-                justify-content:center;
+            .navbar-collapse{
                 .navbar-nav{
                     a{
                         background-color: #020304;
@@ -31,6 +31,7 @@ header{
                         color: #f3f3f3;
                         margin-left: 10px;
                         margin-right: 10px;
+                        font-size: 20px;
                     }
                 }
             }
@@ -38,6 +39,7 @@ header{
                 display: flex;
                 justify-content: end;
                 color: #f3f3f3;
+                font-size: 20px;
                 &:hover{
                     color: #7f0000;
                 }

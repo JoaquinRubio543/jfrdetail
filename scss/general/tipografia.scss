@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+$title-typography: "Oswald";
+$paragraph-typography:"Noto";
+
+h1,h2,h3,h4,h5,h6,span {
+    font-family: $title-typography;
+}
+p,li,ul,a{
+    font-family: $paragraph-typography;
+}
 a{
     text-decoration: none;
 }
