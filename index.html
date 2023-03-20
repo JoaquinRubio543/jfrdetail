@@ -3,7 +3,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/6.3.0/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/main.css">
     <title>JFR Detail | Inico</title>
@@ -42,37 +43,54 @@
                 </div>
             </div>
         </div>
-        <div class="container text-center">
-            <div class="row justify-content-center">
-                <div class="col-12">
-                    <a class="a-index" href="./Paginas/Lavado-a-detalle.html">
-                        <img class="img-index" src="./Imagenes/lavadomini.jpeg.jpg" alt="">
-                        <h1 class="categorias-index">Lavado a detalle</h1>
-                        <p class="info-index">Detallado del vehiculo tanto interno como externo, llegando hasta los amortiguadores y pasaruedas. </p>
-                    </a>
+        <div class="container">
+            <div class="row justify-content-center" id="rowCarousel">
+                <div class="col" id="carouselIndex">
+                    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="3500">
+                            <img src="./Imagenes/lavadomini.jpeg.jpg" class="d-block " alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3500">
+                            <img src="./Imagenes/opticashilux.jpeg.JPEG" class="d-block " alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3500">
+                            <img src="./Imagenes/llantas.jpg" class="d-block " alt="...">
+                        </div>
+                   |      </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
                 </div>
-            <div class="row justify-content-center">
-                <div class="col-12 ">
-                    <a class="a-index" href="./paginas/Restauracion-de-opticas.html">
-                        <img class="img-index" src="./Imagenes/opticashilux.jpeg.JPEG" alt="">
-                        <h1 class="categorias-index">Restauracion de opticas</h1>
-                        <p class="info-index">Lijado y pulido de opticas con el fin de remover las zonas desgastadas y volver a su estado original</p>
-                    </a>
-                </div>
-            <div class="row justify-content-center">            
-                <div class="col-12 ">
-                    <a class="a-index" href="./paginas/Ploteos.html">
-                        <img class="img-index" src="./Imagenes/llantas.jpg" alt="">
-                        <h1 class="categorias-index">Ploteos</h1>
-                        <p class="info-index">Ploteo de insignias y llantas con pintura removible Stretch™</p>
-                    </a>
+            </div>    
+            <div class="row">
+                <div class="col text-center mt-4">
+                    <h2 class="nosotros-indexT">Sobre nosotros</h2>
+                    <p class="nosotros-indexS">En JFR Detail nos dedicamos al cuidado, lavado y restauracion de automoviles desde hace mas de dos años. Nuestro objetivo es garantizar el mejor resultado con los mejores productos del mercado, en el menor tiempo posible. Desde nuestros inicios en 2020, no fue facil comenzar a emprender debido a las situaciones sociales que se presentaban en el momento, pero la pandemia no fue una excusa para nosotros y gracias a nuestra excelente calidad y dedicacion logramos construir una base solida de clientes que nos permitieron, y permiten, llegar a donde estamos y ser quienes somos.</p>
                 </div>
             </div>
         </div>
     </main>
-    <footer class="footer">
-        <p class="footer__copyright">Derechos de Copyright reservados ©2023</p>
+    <footer>
+        <section>
+            <div class="footer-content">
+                <h3>JFR DETAIL Co</h3>
+                <ul class="socials">
+                    <li><a href="https://www.instagram.com/jfr.detailing/"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <p>copyright &copy;2023. designed by <span>Joaquinrubio</span></p>
+            </div>    
+        </section>
     </footer>
+    <script src="https://kit.fontawesome.com/b14f4fa400.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>

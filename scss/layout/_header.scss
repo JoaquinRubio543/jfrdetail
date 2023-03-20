@@ -1,9 +1,10 @@
 header{
     nav{
+        opacity: 0.5;
         div{
-            background-color: #020304;
             padding: auto;
             .navbar-brand{
+                opacity: 1;
                 #headerLogo1{
                     color: #7f0000;
                     font-size: 25px;
@@ -21,7 +22,6 @@ header{
             .navbar-collapse{
                 .navbar-nav{
                     a{
-                        background-color: #020304;
                         padding: auto;
                         &:hover{
                             color: #7f0000;

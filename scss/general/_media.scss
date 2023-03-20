@@ -26,6 +26,9 @@
     #lavadoRuedas3{
         margin-left: 190px;
     }
+    #carouselIndex{
+        height: 500px;
+    }
 
 @media only screen and (max-width : 900px) {
     .img-index{
@@ -48,6 +51,9 @@
     }
     .info-lavado{
         margin: 0;
+    }
+    #carouselIndex{
+        height: 300px;
     }
 }
     
