@@ -1,32 +1,48 @@
-div{
-    color: #fff;
+main{
     div{
         div{
-            .img-lavado{
-                width: 400px;
-                height: 400px;  
-                padding: 10px; 
+            div{
+                img{
+                    width: 100%;
+                    height: 400px;
+                }
+            }
+        }
+    }
+    #infoLavado{
+        background-color: #fff;
+        div{
+            div{
+                h1{
+                    color: $title-color;
+                }
             }
         }
         div{
-            .info-lavado{
-                color: $paragraph-color;
-                font-size: 20px;
-            }
-            .a-lavado{
-                display: flex;
-                justify-content: center;
-                text-decoration: none;
-                .btn-lavado{
-                    color: $paragraph-color;
-                    background-color:$title-color;
-                    border: none;
+            div{
+                p{
+                    color: #000000;
                     font-size: 20px;
-                    &:hover{
-                        color:$title-color;
-                        background-color: $paragraph-color;
-                    }
                 }
+            }
+        }
+        div{
+            div{
+                h1{
+                    color: $title-color;
+                }
+            }
+        }
+    }
+    div{
+        div{
+            img{
+                padding: auto;
+            }
+        }
+        div{
+            img{
+                padding: auto;
             }
         }
     }

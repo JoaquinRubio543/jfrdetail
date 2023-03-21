@@ -22,11 +22,6 @@ footer{
     font-family: "Open Sans";
     padding-top: 40px;
     color: #fff;
-    section{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-right: 20px;
         .footer-content{
             display: flex;
             align-items: center;
@@ -46,7 +41,7 @@ footer{
                 justify-content: center;
                 margin: 1rem 0 3rem 0;
                 li{
-                    margin: 0 10px;
+                    margin-right: 20px;
                 }
                 a{
                     text-decoration: none;
@@ -77,4 +72,3 @@ footer{
             }
         }
     }
-}
