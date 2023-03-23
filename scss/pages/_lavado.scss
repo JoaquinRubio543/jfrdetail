@@ -46,4 +46,19 @@ main{
             }
         }
     }
+    div{
+        div{
+            .contacto-boton{
+                color: #fff;
+                background-color: $title-color;
+                border-radius: 10px;
+                transition: .5s;
+                padding: 8px;
+                &:hover{
+                    color: $title-color;
+                    background-color: #fff;
+                }
+            }
+        }
+    }
 }
