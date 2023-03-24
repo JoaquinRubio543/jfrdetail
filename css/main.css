@@ -81,7 +81,9 @@ body {
   .info-lavado {
     margin: 0; }
   #carouselIndex {
-    height: 300px; } }
+    height: 300px; }
+  #imgPloteo {
+    margin-left: 103px; } }
 
 .animate__animated.animate__backInLeft {
   --animate-duration: 1.5s; }
@@ -239,7 +241,7 @@ footer {
       width: 100%;
       border: 2px solid rgba(0, 0, 0, 0);
       outline: none;
-      background-color: rgba(230, 230, 230, 0.6);
+      background-color: white;
       padding: 0.5rem 1rem;
       font-size: 1.1rem;
       margin-bottom: 22px;
@@ -301,10 +303,17 @@ main div div .contacto-boton {
     color: #6A3937;
     font-size: 30px; }
   #container-opticas div .texto-opticas {
-    font-size: 15px; }
+    font-size: 20px; }
   #container-opticas div div .img-opticas {
     margin-top: 5px;
     margin-bottom: 5px; }
+
+#container-ploteos {
+  background-color: #fff !important;
+  margin-top: -4; }
+  #container-ploteos div div .texto-ploteo {
+    color: black;
+    font-size: 20px; }
 
 div div #carouselIndex #carouselExampleAutoplaying div .carousel-item {
   width: 100%;

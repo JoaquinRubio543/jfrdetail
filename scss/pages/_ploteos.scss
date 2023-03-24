@@ -1,3 +1,12 @@
 #container-ploteos{
-    background-color: #fff;
+    background-color: #fff !important;
+    margin-top: -4;
+    div{
+        div{
+            .texto-ploteo{
+                color: black;
+                font-size: 20px;
+            }
+        }
+    }
 }
