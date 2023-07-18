@@ -4,13 +4,12 @@ header{
         div{
             padding: auto;
             .navbar-brand{
-                opacity: 1;
                 #headerLogo1{
-                    color: #7f0000;
+                    color: #cf9e75;
                     font-size: 25px;
                 }
                 #headerLogo2{
-                    color: #f3f3f3;
+                    color: #ffffff;
                     font-size: 25px;
                 }
             }
@@ -24,7 +23,7 @@ header{
                     a{
                         padding: auto;
                         &:hover{
-                            color: #7f0000;
+                            color: #cf9e75;
                         }
                     }
                     .nav-link{
@@ -41,7 +40,7 @@ header{
                 color: #f3f3f3;
                 font-size: 20px;
                 &:hover{
-                    color: #7f0000;
+                    color: #cf9e75;
                 }
             }
         }
