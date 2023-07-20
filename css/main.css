@@ -220,20 +220,14 @@ footer {
         background-color: #000000;
         color: black; }
 
-#container-ploteos {
-  background-color: #fff !important;
-  margin-top: -4; }
-  #container-ploteos div div .texto-ploteo {
-    color: black;
-    font-size: 20px; }
+div div div .info-pago {
+  font-size: 30px; }
 
 div div #carouselIndex #carouselExampleAutoplaying div .carousel-item {
-  width: 100%;
-  height: 100%; }
+  overflow: hidden; }
   div div #carouselIndex #carouselExampleAutoplaying div .carousel-item img {
     width: 100%;
-    height: 100%;
-    object-fit: cover; }
+    height: 100%; }
 
 div div div .nosotros-indexT {
   color: #cf9e75;
@@ -244,26 +238,14 @@ div div div .nosotros-indexS {
   color: #000000;
   font-size: 20px; }
 
-div div div h1 {
-  color: #cf9e75;
-  font-size: 40px;
-  font-weight: 700; }
-
-div div #cardIndex {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 10px; }
-  div div #cardIndex .card .card-body {
-    background-color: #fdfdfd; }
-    div div #cardIndex .card .card-body .card-title {
-      color: #cf9e75;
-      font-size: 25px;
-      transition: .5s;
-      font-weight: bolder; }
-    div div #cardIndex .card .card-body .btn {
-      color: #fff;
-      background-color: #cf9e75; }
+div div #cardIndex .card {
+  margin-left: 15%; }
+  div div #cardIndex .card img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 286px;
+    height: 400px; }
 
 div div div .subt-index {
   color: #000000;
